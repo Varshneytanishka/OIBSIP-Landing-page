@@ -79,22 +79,59 @@
                 </figure>
             </div>
         </div>
-        <div class="contact-form-container">
-            <div class="container">
-                <h1 class="contact-heading">Contact Me</h1>
-                <div class="contact-form-container">
-                    <form  class =" form" action="">
-                        <div class="formfield-container">
-                            <input class="form-field" id="sa" type="name" name="name"  placeholder="Enter your name"><br>
-                            <input class="form-field" id="no" type="number" name="number"  placeholder="Enter your number"><br>
-                            <input class="form-field" id="add" type="text" name="address"  placeholder="Enter your address"><br>
-                            <button class="sub-btn">Submit</button>
+        <div class="contact-form-container"> 
+            <div class="container_">
+                <h1 class="main-heading">Contact Us</h1><hr>
+                <form action="#" class="form-class">
+                    <div>
+                        <h3 class="heading-field">Customer Name</h3>
+                        <div class="input-field">
+                        <input type="text" id="firstname" name="firstname"  class="form-control-input" required> <br>Enter Your First Name <br>
+                        <input type="text" id="lastname" name="lastname"  class="form-control-input" required><br>Enter Your Last Name <br>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div>
+                        <h3 class="heading-field">Address</h3>
+                        <div class="input-field">
+                        <input type="text" id="street1" name="street1"  class="form-control-input"  required> <br> Street Address <br>
+                        <input type="text" id="street2" name="street2"  class="form-control-input" required> <br> Street Address Line 2 <br>
+                        <input type="text" id="city" name="city"  class="form-control-input" required> <br> City <br>
+                        <input type="text" id="state" name="state"  class="form-control-input" required> <br> State <br>
+                        <input type="number" id="zip" name="zip"  class="form-control-input" required> <br>Zip<br>
+                        <select name="country" id="country"  class="form-control-input" required>
+                            <option value="India">India</option>
+                            <option value="Tokelau">Tokelau</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Zambia">Zambia</option>
+                        </select><br>
+                        Select country
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="heading-field">Contact</h3>
+                        <div class="input-field">
+                        <input type="text" name="phone" id="phone"   class="form-control-input" required><br>Phone <br>
+                        <input type="email" name="email" id="email"   class="form-control-input" required><br>Email <br>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="heading-field">Ratings</h3>
+                        <div class="input-field">
+                            <input type="radio" name="rating1" id="bad" value="bad">
+                                <label for="bad">Bad</label>
+                            <input type="radio" name="rating1" id="good" value="good">
+                                <label for="good">Good</label>
+                            <input type="radio" name="rating1" id="excelent" value="excelent">
+                                <label for="excelent">Excelent</label>
+                        
+                        </div>                   
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
-        </div>
-        <footer>_</footer>
+            <footer>_</footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
